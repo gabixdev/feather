@@ -1,15 +1,22 @@
 #### About Feather
-[Feather](http://zsoltherpai.github.io/feather) is an ultra-lightweight dependency injection ([JSR-330](https://jcp.org/en/jsr/detail?id=330 "JSR-330"))
-library for Java and Android. Dependency injection frameworks are often perceived as "magical" and complex. 
+Feather is an ultra-lightweight dependency injection library implementing ([JSR-330](https://jcp.org/en/jsr/detail?id=330 "JSR-330")) for Java and Android. Dependency injection frameworks are often perceived as "magical" and complex. 
 Feather - with just a few hundred lines of code - is probably the easiest, tiniest, most obvious one, 
 and is quite efficient too (see comparison section below).
+
+[Get it on JitPack](https://jitpack.io/#gabixdev/feather)
+
 ```xml
 <dependency>
-    <groupId>org.codejargon.feather</groupId>
+    <groupId>com.github.gabixdev</groupId>
     <artifactId>feather</artifactId>
-    <version>1.0</version>
+    <version>[version]</version>
 </dependency>
 ```
+
+```gradle
+compile "com.github.gabixdev:feather:[version]"
+```
+
 [Javadoc](http://zsoltherpai.github.io/feather/apidocs "Javadoc") for Feather
 ##### Usage - code examples
 ###### Create Feather (the injector)
